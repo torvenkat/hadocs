@@ -11,7 +11,9 @@ theme:
   custom_dir: 'theme'
   logo: images/logo.svg
   features:
-    - tabs
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.instant
   palette:
     primary: 'green'
     accent: 'light green'
@@ -22,7 +24,8 @@ extra_css:
   - stylesheets/dark_theme.css
   - stylesheets/codehilite.css
 plugins:
-    - search
+    - search:
+        lang: 'en'
     - awesome-pages
 markdown_extensions:
   - admonition
