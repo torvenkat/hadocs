@@ -1,0 +1,5 @@
+#Required plugins
+
+mkdocs-search-plugin
+mkdocs-awesome-pages-plugin
+mkdocs-codeinclude-plugin
