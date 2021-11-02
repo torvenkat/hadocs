@@ -6,4 +6,4 @@
 | [Orvibo Hub](https://www.orvibo.com/en/product/miniHost.html) |    1     | Ethernet   | NA          | I picked it up in a trade show in China, along with a motion sensor, a contact sensor, a camera, and an RF link.  The sensors are now used via Zigbee.  The Camera and RF link are useless. |
 | [Cacoon  Camera](https://cocoon.life/)                       |    1     | Ethernet   | NA          | A pre-production unit.  Does not integrate with anything     |
 | [Orvibo Smart Plug S31](https://www.orvibo.com/en/product/s31.html) |    1     | Ethernet   | NA          | One of the most aesthetically designed smart plugs.  Does not integrate easily with anything. Should be based on ESP and there should be a way to convert to Tasmota or ESPHome |
-
+| [Samsung SmartThings v1](https://support.smartthings.com/hc/en-us/articles/207477083-Which-SmartThings-Hub-do-I-have-#v1Hub2013) |    1     | Ethernet            | [Smarthings](https://www.home-assistant.io/integrations/smartthings/) | Last few Zigbee (mostly Ecosmart) lights and Z-Wave locks devices are moved out to the above dual controller. |
