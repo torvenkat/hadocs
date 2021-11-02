@@ -4,11 +4,11 @@ Here is my household [Home Assistant](https://home-assistant)  configuration.  I
 
 
 
-![Configurration Sep2019](Home_Sep2019-1024x691.png)
+![Configurration Nov.2021](Home_oct2021.png)
 
-The published version of configruations is working with Integration Core Version: 0.109.6 in HassOS 3.13.  
+The published version of configruations is working with Integration Core Version: 2021.10.6 in HassOS 6.5.  
 
-I started using Home Assistant two years ago, so there may be some depreciated code/integration still lurking, will try to clean them up. 
+I started using Home Assistant three years ago, so there may be some depreciated code/integration still lurking, will try to clean them up. 
 
 I also write some extended configuration notes in my blog at [venkat.ca](http://venkat.ca/) 
 
