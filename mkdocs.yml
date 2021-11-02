@@ -1,10 +1,11 @@
 site_name: Test docs
 site_description: 'A docs test'
-site_author: 'Michael Hausenblas'
+site_author: 'Venkat Venkataramanan'
 docs_dir: docs/
 repo_name: 'mhausenblas/mkdocs-template'
-repo_url: 'https://github.com/mhausenblas/mkdocs-template'
+repo_url: 'https://github.com/torvenkat/hadocs'
 nav:
     - Home: index.md
+    - About: about.md
 theme:
   name: 'material'
