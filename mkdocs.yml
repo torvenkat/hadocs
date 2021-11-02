@@ -19,3 +19,15 @@ theme:
   font:
     text: Roboto
     code: Fira Code  
+extra_css:
+  - stylesheets/dark_theme.css
+  - stylesheets/codehilite.css
+plugins:
+    - search
+    - awesome-pages
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: true
+  - toc:
+      permalink: true              
