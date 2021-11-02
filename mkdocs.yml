@@ -1,6 +1,8 @@
 site_name: Home Assistant
 site_description: 'Home Assistant Configuration'
 site_author: 'Venkat Venkataramanan'
+copyright: 2020 venkat.ca
+site_url: https://torvenkat.github.io/hadoc
 docs_dir: docs/
 repo_name: 'torvenkat/hadocs'
 repo_url: 'https://github.com/torvenkat/hadocs'
