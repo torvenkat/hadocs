@@ -1,11 +1,21 @@
-site_name: Test docs
-site_description: 'A docs test'
+site_name: Home Assistant
+site_description: 'Home Assistant Configuration'
 site_author: 'Venkat Venkataramanan'
 docs_dir: docs/
-repo_name: 'mhausenblas/mkdocs-template'
+repo_name: 'torvenkat/hadocs'
 repo_url: 'https://github.com/torvenkat/hadocs'
 nav:
     - Home: index.md
     - About: about.md
-theme:
-  name: 'material'
+theme: 
+  name: material
+  custom_dir: 'theme'
+  logo: images/logo.svg
+  features:
+    - tabs
+  palette:
+    primary: 'green'
+    accent: 'light green'
+  font:
+    text: Roboto
+    code: Fira Code  
