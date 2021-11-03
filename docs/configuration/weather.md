@@ -5,7 +5,7 @@
 
 
 
-The Ecowitt kit includes [GW1100 Wireless Gateway](https://www.ecowitt.com/shop/goodsDetail/107#), with built-in temperature, humidity, & pressure sensors for indoor readings and [WH32 outdoor Temperature & Humidity sensor](https://www.ecowitt.com/shop/goodsDetail/52#).  One of the best low-cost personal weather stations, IMHO.  This is modular and extensible (rain, wind, particle, lightining sensors...)Yet to find a good way to integrate.
+The Ecowitt kit includes [GW1100 Wireless Gateway](https://www.ecowitt.com/shop/goodsDetail/107#), with built-in temperature, humidity, & pressure sensors for indoor readings and [WH32 outdoor Temperature & Humidity sensor](https://www.ecowitt.com/shop/goodsDetail/52#).  One of the best low-cost personal weather stations, IMHO.  This is modular and extensible (rain, wind, particle, lightining sensors...).  The [custom integration](https://github.com/garbled1/homeassistant_ecowitt) works very well. 
 
 For forecast, I use Environment Canada's services. 
 
