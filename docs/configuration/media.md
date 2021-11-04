@@ -2,6 +2,7 @@
 
 | Device                                                       | Quantity | Connection | Integration                                                  | Notes         |
 | ------------------------------------------------------------ | :------: | ---------- | ------------------------------------------------------------ | ------------- |
+| Spotify                                                      |    1     | Cloud      | [Spotify](https://www.home-assistant.io/integrations/spotify/) |               |
 | [Plex Media Server](https://plex.tv)                         |    1     | Ethernet   | [Plex](https://www.home-assistant.io/components/media_player.plex) / [Plex Activity Monitor](https://www.home-assistant.io/components/sensor.plex/) | (1) See below |
 | [Pi Music Box](https://www.pimusicbox.com/)                  |    1     | Ethernet   | [mpd](https://www.home-assistant.io/integrations/mpd/)       | (2) See below |
 | [Amazon Echo v1](https://www.amazon.com/Amazon-Echo-Bluetooth-Speaker-with-Alexa-Black/dp/B00X4WHP5E) |    1     | Wi-Fi      | [Alexa Media Player](https://github.com/custom-components/alexa_media_player) | (3) See below |
@@ -13,11 +14,11 @@
 
 (2) The Pi Music Box is a Raspberry Pi 3B+.  It scans and picks up audio files from the same Openmediavault server that runs Plex and provides additional music streaming through the home theatre speakers. 
 
-(3) Amazon echo devices configured via Nabu Casa (See Voice Assistants Section) do not function as media players.  This necessitates using a custom integration [Alexa Media Player](https://github.com/custom-components/alexa_media_player).  I had purchased my first Amazon Echo when it was introduced in the USA (not available in Canada, then) so, it got integrated to my Amazon USA account and I had great difficulty in passing the verification step (which simply kept blanking out, instead of sending OTP to my phone).  I enabled Two-Factor Authentication (TFA) for my Amazon account and this helped me generate OTP locally using my Authenticator app and complete the process. 
+(3) Amazon echo devices configured via Nabu Casa (See Voice Assistants Section) do not function as media players.  This necessitates using a custom integration [Alexa Media Player](https://github.com/custom-components/alexa_media_player).  I had purchased my first Amazon Echo (first generation) when it was introduced in the USA (not available in Canada, then) so, it got integrated to my Amazon USA account and I had great difficulty in passing the verification step (which simply kept blanking out, instead of sending OTP to my phone).  I enabled Two-Factor Authentication (TFA) for my Amazon account and this helped me generate OTP locally using my Authenticator app and complete the process. 
 
-(4) Ecobee4 has a built-in Alexa voice assistant which doubles (triples? considering it is primarily a thermostat) up as a medica player via the above custom integration. 
+(4) Ecobee4 has a built-in Alexa voice assistant which doubles (triples? considering it is primarily a thermostat) up as a medica player (albeit a poor quality one) via the above custom integration. 
 
-There are Google Home devices configured throughout the house that can play from thier cloud services and stream from Pi Music Box.  These got easily configured as media players via Nabu Casa integration. These are explained in Voice Assistants section. 
+There are Google Home devices configured throughout the house that can play from thier cloud services and stream from Spotify and Pi Music Box.  These got easily configured as media players via Nabu Casa integration. These are explained in Voice Assistants section. 
 
 
 
