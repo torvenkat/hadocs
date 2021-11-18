@@ -1,0 +1,8 @@
+/*
+Main headlines
+*/
+.md-main h1 {
+  color: #cc3300; !important;
+  font-size: 2rem;
+  font-weight:600;
+}
