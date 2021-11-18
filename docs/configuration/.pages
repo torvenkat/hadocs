@@ -1,17 +1,20 @@
 arrange:
   - server.md
+  - router.md
   - hubs.md
   - lighting.md
   - comfort.md
   - outlets_switches.md
   - security.md
   - safety.md
+  - tesla.md
   - voice_assistant.md
   - media.md 
   - sensors.md 
   - cameras.md 
   - garage.md 
   - plants.md 
+  - weather.md
   - other.md
   - services.md 
   - retired.md
